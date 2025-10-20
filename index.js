@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 const addToCart = document.querySelector('.products_container');
-
+//kevin es mk
 addToCart.addEventListener('click', (event) => {
     if (event.target.classList.contains('add_to_cart')) {
         const productCardEl = event.target.closest('.product_card');
